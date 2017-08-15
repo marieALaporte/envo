@@ -1,0 +1,38 @@
+pattern_name: envo-p/patterns/entity_content_entity
+classes: []
+
+relations:
+  inheres in: RO_0000052
+  towards: RO_0002503
+    
+vars: 
+  attribute: "'Thing'"
+  entity1: "'Thing'"
+  entity2: "'Thing'"
+
+name:
+  text: "%s %s %s"
+  vars:
+    - entity1
+    - entity2
+    - attribute
+
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - synonym
+      
+def: 
+  text: "The %s %s in %s."
+  vars:
+    - entity2
+    - attribute
+    - entity1
+    
+equivalentTo: 
+  text: "%s and 'inheres in' some %s and 'towards' some %s"
+  vars:
+    - attribute
+    - entity1
+    - entity2

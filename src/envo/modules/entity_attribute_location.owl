@@ -107,6 +107,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25555"/>
@@ -140,6 +146,12 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001004"/>
     
 
 
@@ -353,9 +365,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a carbon atom when measured in environmental material.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>environmental material carbon atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of carbon atom in environmental material</rdfs:label>
+        <obo:IAO_0000115>The concentration of a carbon atom when measured in environmental material.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>environmental material carbon atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of carbon atom in environmental material</rdfs:label>
     </owl:Class>
     
 
@@ -384,9 +396,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a carbon atom when measured in soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>soil carbon atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of carbon atom in soil</rdfs:label>
+        <obo:IAO_0000115>The concentration of a carbon atom when measured in soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil carbon atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of carbon atom in soil</rdfs:label>
     </owl:Class>
     
 
@@ -415,9 +427,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a carbon atom when measured in water.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>water carbon atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of carbon atom in water</rdfs:label>
+        <obo:IAO_0000115>The concentration of a carbon atom when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>water carbon atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of carbon atom in water</rdfs:label>
     </owl:Class>
     
 
@@ -632,9 +644,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a nitrogen atom when measured in environmental material.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>environmental material nitrogen atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of nitrogen atom in environmental material</rdfs:label>
+        <obo:IAO_0000115>The concentration of a nitrogen atom when measured in environmental material.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>environmental material nitrogen atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of nitrogen atom in environmental material</rdfs:label>
     </owl:Class>
     
 
@@ -663,9 +675,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a nitrogen atom when measured in soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>soil nitrogen atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of nitrogen atom in soil</rdfs:label>
+        <obo:IAO_0000115>The concentration of a nitrogen atom when measured in soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil nitrogen atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of nitrogen atom in soil</rdfs:label>
     </owl:Class>
     
 
@@ -694,9 +706,40 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a nitrogen atom when measured in water.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>water nitrogen atom concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of nitrogen atom in water</rdfs:label>
+        <obo:IAO_0000115>The concentration of a nitrogen atom when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>water nitrogen atom concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of nitrogen atom in water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09000019">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of a chloride when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>water chloride concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of chloride in water</rdfs:label>
     </owl:Class>
     
 
@@ -725,9 +768,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a ammonium when measured in soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>soil ammonium concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of ammonium in soil</rdfs:label>
+        <obo:IAO_0000115>The concentration of a ammonium when measured in soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil ammonium concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of ammonium in soil</rdfs:label>
     </owl:Class>
     
 
@@ -756,9 +799,40 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a nitrate when measured in soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>soil nitrate concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label>concentration of of nitrate in soil</rdfs:label>
+        <obo:IAO_0000115>The concentration of a nitrate when measured in soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil nitrate concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of nitrate in soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of nitrate when measured in groundwater.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>groundwater nitrate concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of nitrate in groundwater</rdfs:label>
     </owl:Class>
     
 
@@ -782,5 +856,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 

@@ -94,6 +94,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
@@ -310,6 +316,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200014">
+        <rdfs:label>temperature of water</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:hasExactSynonym>water temperature</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The temperature of some water.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200015">
+        <rdfs:label>humidity of soil</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0015009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:hasExactSynonym>soil humidity</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The humidity of some soil.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
@@ -355,6 +403,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001842 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0015009"/>
 </rdf:RDF>
 
 
